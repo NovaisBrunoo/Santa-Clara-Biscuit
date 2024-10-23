@@ -11,6 +11,9 @@ const config: Config = {
       fontFamily: {
         "epilogue": "var(--font-epilogue)",
       },
+      screens: {
+        "Mobile": "425px",
+      },
     },
   },
   plugins: [],

@@ -5,8 +5,8 @@ export default function Home() {
     <div className="w-full h-screen flex flex-col justify-center items-center">
       <Analytics />
       <Header />
-      <div className="w-full flex justify-center items-center">
-        <div className="w-1/2 flex flex-col justify-center items-center px-10 py-6">
+      <div className="w-full flex justify-center items-center Mobile: flex-col">
+        <div className="w-1/2 flex flex-col justify-center items-center px-10 py-6 Mobile:w-full">
           <div className="w-full flex flex-col text-left font-epilogue gap-6">
             <strong className="text-sm" >Bem vindo ao </strong>
             <h1 className="font-semibold text-6xl">Santa Clara Biscuit</h1>
@@ -18,7 +18,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="w-1/2 flex justify-center items-center">
+        <div className="w-1/2 flex justify-center items-center Mobile:w-full">
           <img src="/Logo_Stb.png" alt="biscuit" className="w-96 h-96 object-cover" />
         </div>
 

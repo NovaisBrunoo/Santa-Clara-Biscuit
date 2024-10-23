@@ -2,7 +2,7 @@ import Header from "@/components/header/page";
 import { Analytics } from "@vercel/analytics/react";
 export default function Home() {
   return (
-    <div className="w-full h-screen flex flex-col justify-center items-center">
+    <div className="w-full h-screen flex flex-col justify-center items-center gap-1">
       <Analytics />
       <Header />
       <section className="w-full flex flex-col justify-start items-center p-2 lg:px-20 lg:py-6">

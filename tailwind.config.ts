@@ -12,7 +12,7 @@ const config: Config = {
         "epilogue": "var(--font-epilogue)",
       },
       screens: {
-        "Mobile": "425px",
+        "Mobile": "414px",
       },
     },
   },

@@ -5,7 +5,7 @@ export default function Home() {
     <div className="w-full h-screen flex flex-col justify-center items-center gap-1">
       <Analytics />
       <Header />
-      <section className="w-full flex flex-col justify-start items-center p-2 lg:px-20 lg:py-6">
+      <section className="w-full flex flex-col justify-center items-center p-2 lg:px-20 lg:py-6">
         <div className="w-full h-auto flex flex-col justify-center items-center lg:flex-row">
           <div className="w-full flex flex-col text-left font-epilogue gap-6">
             <strong className="text-sm" >Bem vindo ao </strong>

@@ -1,11 +1,12 @@
+import Details from "@/components/details/page";
 import Header from "@/components/header/page";
 import { Analytics } from "@vercel/analytics/react";
 export default function Home() {
   return (
-    <div className="w-full h-screen flex flex-col justify-center items-center">
+    <div className="w-full min-h-screen flex flex-col justify-center items-center">
       <Analytics />
       <Header />
-      <section className="w-full h-full flex flex-col justify-center items-center  p-2 lg:px-20 lg:py-6">
+      <section className="w-full h-full flex flex-col justify-start items-center  p-2 lg:px-20 lg:py-6 gap-2">
         <div className="w-full h-auto flex flex-col justify-center items-center lg:flex-row">
           <div className="w-full flex flex-col text-left font-epilogue gap-6">
             <strong className="text-sm" >Bem vindo ao </strong>
@@ -22,6 +23,7 @@ export default function Home() {
             <img src="/Logo_Stb.png" alt="biscuit" className="w-96 h-96 object-cover" />
           </div>
         </div>
+        <Details />
 
       </section>
     </div>

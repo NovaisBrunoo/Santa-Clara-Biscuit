@@ -14,8 +14,16 @@ const config: Config = {
       screens: {
         "Mobile": "414px",
       },
+      width: {
+        "box-details": "390",
+      },
+      height: {
+        "box-details": "420",
+      },
+
     },
-  },
-  plugins: [],
+    plugins: [],
+  }
 };
+
 export default config;
